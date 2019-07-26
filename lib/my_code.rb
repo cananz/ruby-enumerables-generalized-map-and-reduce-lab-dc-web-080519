@@ -8,8 +8,9 @@ def map (source_array)
  return newmap 
 end
 
-def reduce (source_array, starting_value = nil)
+def reduce (source_array, starting_value = 0)
   if starting_value
+    newreduce = starting_value
     
   end
   while i < source_array.length do
